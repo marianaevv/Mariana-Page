@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+div{
+  padding: 10px;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.logo > img {
+	width: 70px;
+}
+nav{
+	background-color:grey;
+	display: flex;
+	justify-content: flex-end;
+}
+header{
+	text-align: center;
+}
+ul{
+	list-style:none;
+}
+.menu{
+	display:none;
+}
+.hamburger{
+	color: white;
+}
+.social{
+	display:flex;
+	justify-content: space-around;
+}
+.product{
+	text-align: center;
+	border: 1px solid grey;
+	margin: 10px;
+	
+}
+@media (min-width: 991px){
+.logo{	
+    display: flex;
+    flex-direction: row;
+	 justify-content:center;
+	width: 40%;
+}
+.title{
+	display: flex;
+	justify-content:flex-start;
+	 width: 60%;
+}
+header{
+	text-align: center;
+	flex-direction: row;
+	display:flex;
+}
+.mainContainer{
+	flex-direction: row;
+	display:flex;
+	justify-content:space-evenly;
+}	
+.menu{
+	display:block;
+	list-style:none;
+	background-color:grey;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	color:white;
+	
+}
+.product{
+margin: 10px;
+	width:30%
+}
+.menu>li{
+
+	float:right;
+	padding:20px;
+}
+.menu>li:hover{
+	color:black;
+	cursor:pointer;
+	background-color:white;
+}
+.hamburger{
+	display:none;
+}
+}	
+@media (min-width: 600px) and (max-width: 990px){
+.logo{
+    display: flex;
+    flex-direction: row;
+	 justify-content:center;
+	width: 40%;
+	}
+
+.title{
+	display: flex;
+	justify-content:flex-start;
+	 width: 60%;
+}
+
+nav{
+	background-color:grey;
+	display: flex;
+	justify-content: flex-end;
+}
+header{
+	text-align: center;
+	flex-direction: row;
+	display:flex;
+}
+.product{
+	 box-sizing: border-box;
+	 justify-content: space-between;
+	 margin:10px;
+}
+}
