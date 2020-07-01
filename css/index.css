@@ -13,7 +13,7 @@ body {
 	width: 70px;
 }
 nav{
-	background-color:grey;
+	background-color:lightcoral;
 	display: flex;
 	justify-content: flex-end;
 }
@@ -35,7 +35,7 @@ ul{
 }
 .product{
 	text-align: center;
-	border: 1px solid grey;
+	border: 1px solid lightcoral;
 	margin: 10px;
 	
 }
@@ -64,7 +64,7 @@ header{
 .menu{
 	display:block;
 	list-style:none;
-	background-color:grey;
+	background-color:lightcoral;
 	margin:0;
 	padding:0;
 	overflow:hidden;
